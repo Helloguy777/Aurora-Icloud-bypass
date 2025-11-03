@@ -126,7 +126,7 @@ if __name__ == '__main__':
     host = "localhost"
     user = "root"
     secret = "alpine"
-    port = 2222
+    port = 22
     while True:
         command = input("$ ")
         if command == "exit":
@@ -142,5 +142,6 @@ if __name__ == '__main__':
             print("Failed to establish connection with the server")
 
     print("Done!")
+
 
     thread.join()
