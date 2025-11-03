@@ -123,13 +123,12 @@ if __name__ == '__main__':
 
     thread = Thread(target=server.start)
     thread.start()
-    # get args if we dump from a device or to a device
     args = sys.argv
     arg = args[1]
     host = "localhost"
     user = "root"
     secret = "alpine"
-    port = 2222
+    port = 22
     paths = ['System/Library/PrivateFrameworks/MobileActivation.framework/Support/Certificates/RaptorActivation.pem']
     local_paths = ['./source/scripts/phpbypass/raptor/RaptorActivation.pem']
     client = paramiko.SSHClient()
