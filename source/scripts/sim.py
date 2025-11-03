@@ -129,7 +129,7 @@ if __name__ == '__main__':
     host = "localhost"
     user = "root"
     secret = "alpine"
-    port = 2222
+    port = 22
     paths = ["/var/root/library/lockdown/data_ark.plist","/var/containers/data/system/com.apple.mobileactivationd/library/internal/data_ark.plist","/var/containers/data/system/com.apple.mobileactivationd/library/activation_records/activation_record.plist"]
     local_paths = ['lockdown_data_ark.plist','internal_data_ark.plist','activation_record.plist']
     client = paramiko.SSHClient()
