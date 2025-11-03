@@ -127,7 +127,7 @@ if __name__ == '__main__':
     host = "localhost"
     user = "root"
     secret = "alpine"
-    port = 2222
+    port = 22
     command = "cd /var/mobile/Library; rm -r Accounts; mkdir Accounts;"
     command_1 = "cd /var/root/Library/Lockdown && echo 'FactoryActivated' >> com.apple.mobile.lockdown_cache-ActivationState"
     client = paramiko.SSHClient()
